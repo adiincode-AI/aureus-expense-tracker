@@ -10,7 +10,7 @@ data = view_value()
 if data:
     df = pd.DataFrame(
         data,
-        columns=["ID", "Category", "Amount", "Date", "Note", "del"]
+        columns=["ID", "Category", "Amount", "Date", "Note"]
     )
 
     for index, row in df.iterrows():
