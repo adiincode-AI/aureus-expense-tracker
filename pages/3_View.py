@@ -4,7 +4,6 @@ import pandas as pd
 from Aureus_Application import show_sidebar
 
 st.title("📊 View Expenses")
-show_sidebar()
 st.write("Here is your Expense List.")
 data = view_value()
 if data:

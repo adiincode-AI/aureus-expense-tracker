@@ -5,7 +5,6 @@ from Aureus_Application import show_sidebar
 
 
 st.title("➕ Add Expense")
-show_sidebar()
 category = st.selectbox(
     "Category",
     [

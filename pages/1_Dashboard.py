@@ -7,7 +7,6 @@ now = datetime.now()
 
 
 st.title("🖥️ Dashboard")
-show_sidebar()
 st.write("Overview of your expenses will go here.")
 
 
