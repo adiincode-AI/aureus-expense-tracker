@@ -1,6 +1,5 @@
 import streamlit as st
 from database_connect import connect_db, view_value
-from Aureus_Application import show_sidebar
 import pandas as pd
 from datetime import datetime
 now = datetime.now()

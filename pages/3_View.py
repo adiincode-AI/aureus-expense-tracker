@@ -1,7 +1,7 @@
 import streamlit as st
 from database_connect import connect_db, view_value, delete_value
 import pandas as pd
-from Aureus_Application import show_sidebar
+
 
 st.title("📊 View Expenses")
 st.write("Here is your Expense List.")

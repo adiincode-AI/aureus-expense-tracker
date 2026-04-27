@@ -1,7 +1,7 @@
 import streamlit as st
 from database_connect import connect_db, insert_value
 from datetime import datetime
-from Aureus_Application import show_sidebar
+
 
 
 st.title("➕ Add Expense")
