@@ -19,3 +19,10 @@ df_chart = df.groupby("Category", as_index=False)["Amount"].sum()
 df_chart = df_chart.set_index("Category")
 
 st.bar_chart(df_chart)
+st.write("---")
+
+if st.button("Add Expenses"):
+    st.switch_page("pages/2_Add.py")
+if st.button("View Expenses"):
+    st.switch_page("pages/3_View.py")
+

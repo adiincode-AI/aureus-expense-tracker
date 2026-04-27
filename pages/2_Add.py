@@ -28,3 +28,10 @@ if st.button("Save"):
     else:
         insert_value(category, amount, date, note)
         st.success("Expense Saved!")
+
+st.write("---")
+
+
+if st.button("View Expenses"):
+    st.switch_page("pages/3_View.py")
+
